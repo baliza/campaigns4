@@ -1,0 +1,75 @@
+﻿[
+  {
+    "_id": "ObjectId(\"56c752d439bac5655eec7fb7\")",
+    "Description": "A jersey for every1",
+    "StartDate": "ISODate(\"2016-03-02T01:11:18.965Z\")",
+    "EndDate": "ISODate(\"2016-06-02T01:11:18.965Z\")",
+    "Amount": 1000,
+    "Preferences": {
+      "size": [
+        "XL",
+        "L",
+        "M"
+      ],
+      "color": [
+        "Green",
+        "Orange",
+        "White"
+      ]
+    },
+    "WhitListedUsers": [
+      {
+        "AccountId": "AccountId1",
+        "Voucher": "Voucher1",
+        "Email": "AccountId1@server.ie"
+      },
+      {
+        "AccountId": "AccountId2",
+        "Voucher": "Voucher2",
+        "Email": "AccountId2@server.ie"
+      },
+      {
+        "AccountId": "AccountId3",
+        "Voucher": "Voucher3",
+        "Email": "AccountId3@server.ie"
+      },
+      {
+        "AccountId": "AccountId4",
+        "Voucher": "Voucher4",
+        "Email": "AccountId4@server.ie"
+      }
+    ]
+  },
+
+  {
+    "_id": ObjectId("56c7540f39bac5655eec7fb8"),
+    "Description": "Get your offer",
+    "StartDate": ISODate("2016-03-02T01:11:18.965Z"),
+    "EndDate": ISODate("2016-06-02T01:11:18.965Z"),
+    "Amount": 2000,
+    "Preferences": {
+      "offer": [
+        "10%",
+        "€100"
+      ]
+    },
+    "WhitListedUsers": [
+      {
+        "AccountId": "AccountId2",
+        "Voucher": "Voucher2",
+        "Emal": "AccountId2@server.ie",
+        "RequestedOn": ISODate("2016-05-02T05:00:15.965Z")
+      },
+      {
+        "AccountId": "AccountId3",
+        "Voucher": "Voucher3",
+        "Emal": "AccountId3@server.ie"
+      },
+      {
+        "AccountId": "AccountId4",
+        "Voucher": "Voucher4",
+        "Emal": "AccountId4@server.ie"
+      }
+    ]
+  }
+]

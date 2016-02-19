@@ -1,0 +1,7 @@
+{
+  "_id": "ObjectId(\"56c7509739bac5655eec7fb4\")",
+  "UserName": "edu",
+  "Password": "12345",
+  "Email": "eduardo.salvador@tempus.ie",
+  "Role": "admin"
+}

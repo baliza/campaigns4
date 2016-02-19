@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CampaignsOnMongoDB", "src\CampaignsOnMongoDB\CampaignsOnMongoDB.xproj", "{45E0D59A-4D17-46E8-B1D7-8CFA68C66EC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{76D18CE0-AC0A-4C86-B2D2-6E89DD433708}"
+	ProjectSection(SolutionItems) = preProject
+		campaigns.json = campaigns.json
+		users.json = users.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{45E0D59A-4D17-46E8-B1D7-8CFA68C66EC4} = {1267BC41-32BF-4E38-9473-E76D58F90C7A}
+		{76D18CE0-AC0A-4C86-B2D2-6E89DD433708} = {8380701B-5058-4B56-BD65-6E459683BD23}
 	EndGlobalSection
 EndGlobal
